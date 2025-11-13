@@ -1,0 +1,31 @@
+{
+  "name": "aws-lambda-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riot-21/aws-lambda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Riot-21/aws-lambda/issues"
+  },
+  "homepage": "https://github.com/Riot-21/aws-lambda#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.930.0",
+    "@aws-sdk/lib-dynamodb": "^3.930.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.158",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
